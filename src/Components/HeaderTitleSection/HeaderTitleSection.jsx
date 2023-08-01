@@ -10,7 +10,7 @@ const HeaderTitleSection = () => {
           <h2 className="text-4xl font-semibold">
             Start Doing Works that meters
           </h2>
-          <p className="text-md font-semibold text-black">
+          <p className="text-justify font-semibold text-black">
             Our philosophy is simple - hire a team of diverse.Passionate people
             and foster a culter that empowers you to do your best work
           </p>

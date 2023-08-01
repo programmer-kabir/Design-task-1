@@ -4,11 +4,11 @@ import { BiDollarCircle, BiTime } from "react-icons/bi";
 const SoftwarePart = () => {
   return (
     <div className="pt-20">
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 ">
-        <div>
+      <div className=" grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-3">
+        <div className="mb-5 md:mb-0">
           <h2 className="font-bold">Software Development</h2>
           <p>Open positions in our software team</p>
-        </div>
+        </div >
         <div className="space-y-3 border-2 border-gray-300 px-2 py-3 rounded-lg">
           <div className="md:flex md:gap-2 items-center ">
             <h2 className="font-bold">Engineering Manager</h2>
@@ -49,7 +49,7 @@ const SoftwarePart = () => {
         </div>
       </div>
       {/* Frontend Developer */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 ">
         <div></div>
         <div className="space-y-3 border-2 border-gray-300 px-2 py-3 rounded-lg">
           <div className="md:flex gap-2 items-center ">
@@ -90,7 +90,7 @@ const SoftwarePart = () => {
         </div>
       </div>
       {/* Backend Developer */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-3">
         <div></div>
         <div className="space-y-3 border-2 border-gray-300 px-2 py-3 rounded-lg">
           <div className="md:flex md:gap-2 items-center ">

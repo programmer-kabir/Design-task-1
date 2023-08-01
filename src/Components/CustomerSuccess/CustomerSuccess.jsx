@@ -4,8 +4,8 @@ import { BiDollarCircle, BiTime } from "react-icons/bi";
 const CustomerSuccess = () => {
   return (
     <div className="pt-20">
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 ">
-        <div>
+      <div className=" grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-3">
+        <div className="mb-5 md:mb-0">
           <h2 className="font-bold">Customer Success</h2>
           <p>Open positions in our CX team</p>
         </div>
