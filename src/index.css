@@ -1,0 +1,10 @@
+/* tailwind middleware */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MainWidth{
+    max-width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+}
