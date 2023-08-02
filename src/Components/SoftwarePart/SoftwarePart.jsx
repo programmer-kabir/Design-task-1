@@ -49,7 +49,7 @@ const SoftwarePart = () => {
         </div>
       </div>
       {/* Frontend Developer */}
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 md:pt-10">
         <div></div>
         <div className="space-y-3 border-2 border-gray-300 px-2 py-3 rounded-lg">
           <div className="md:flex gap-2 items-center ">
@@ -90,7 +90,7 @@ const SoftwarePart = () => {
         </div>
       </div>
       {/* Backend Developer */}
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 md:pt-10 gap-3">
         <div></div>
         <div className="space-y-3 border-2 border-gray-300 px-2 py-3 rounded-lg">
           <div className="md:flex md:gap-2 items-center ">
