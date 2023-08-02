@@ -1,5 +1,6 @@
 import React from "react";
 import { BiDollarCircle, BiTime } from "react-icons/bi";
+import img from '../../../public/Flag/pngwing.com (13).png'
 const DesignPart = () => {
   return (
     <div className="pt-20">
@@ -16,7 +17,7 @@ const DesignPart = () => {
               <div className="md:hidden flex items-center bg-gray-300 shadow-xl px-1 rounded-md">
                 <img
                   className="h-6"
-                  src="https://w7.pngwing.com/pngs/451/296/png-transparent-flag-of-australia-australian-flag.png"
+                  src={img}
                   alt=""
                 />
                 <h4>Austria, Austria</h4>
@@ -37,7 +38,7 @@ const DesignPart = () => {
           <div className="md:flex hidden items-center bg-gray-300 shadow-xl rounded-md w-1/2">
             <img
               className="h-6"
-              src="https://w7.pngwing.com/pngs/451/296/png-transparent-flag-of-australia-australian-flag.png"
+              src={img}
               alt=""
             />
             <h4>Austria, Austria</h4>
@@ -54,7 +55,7 @@ const DesignPart = () => {
               <div className="md:hidden flex items-center bg-gray-300 shadow-xl px-1 rounded-md">
                 <img
                   className="h-6"
-                  src="https://w7.pngwing.com/pngs/451/296/png-transparent-flag-of-australia-australian-flag.png"
+                 src={img}
                   alt=""
                 />
                 <h4>Austria, Austria</h4>
@@ -75,7 +76,7 @@ const DesignPart = () => {
           <div className="hidden md:flex items-center bg-gray-300 shadow-xl rounded-md w-1/2">
             <img
               className="h-6"
-              src="https://w7.pngwing.com/pngs/451/296/png-transparent-flag-of-australia-australian-flag.png"
+             src={img}
               alt=""
             />
             <h4>Austria, Austria</h4>
